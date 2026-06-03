@@ -934,8 +934,8 @@ do{
 protocol DaniilProtocol {
     var name: String { get set }
     var age: Int { get set }
-
-
+    
+}
 
 
 
@@ -976,13 +976,15 @@ do{
 
 struct Daniil: DaniilProtocol {
     var name: String
-    
     var age: Int
 }
 
 
 let daniil = Daniil(name: "Daniil", age: 24)
 
+func name() {
+    print("Andrey")
+}
 
 
 
@@ -990,4 +992,10 @@ let daniil = Daniil(name: "Daniil", age: 24)
 
 
 
-
+enum YammyEtats {
+    case chips
+    case cocaCola
+    case pizza
+    case sushi
+    case macdonalds
+}
