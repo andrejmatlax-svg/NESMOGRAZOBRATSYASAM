@@ -991,3 +991,10 @@ let daniil = Daniil(name: "Daniil", age: 24)
 
 
 
+enum YammyEtats {
+    case chips
+    case cocaCola
+    case pizza
+    case sushi
+    case macdonalds
+}
