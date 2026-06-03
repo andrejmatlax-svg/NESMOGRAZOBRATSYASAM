@@ -911,6 +911,7 @@ do {
 
 enum MyError2: Error {
     case myError2
+    case Zero
 }
 
 let array33: [Int] = [ 1,2,3,4,5]
