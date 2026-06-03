@@ -934,6 +934,28 @@ do{
 
 
 
+let array333: [Int] = [ 1,2,3,4,5]
+
+
+
+func getValue7(index: Int) throws -> Int {
+    guard array333.count > index && index >= 0   else {
+      throw MyError2.myError2
+    }
+    return array333[index]
+}
+
+do{
+    let value = try getValue7(index: 55)
+    print(value)
+} catch {
+    print(error)
+}
+
+
+
+
+
 
 
 
