@@ -972,6 +972,9 @@ var daniil = Daniil(name: "Daniil", age: 24)
 
 
 
+func name() {
+    print("Andrey")
+}
 
 
 
@@ -1001,4 +1004,10 @@ class AndreyI: Andrey2 {
 
 
 
-
+enum YammyEtats {
+    case chips
+    case cocaCola
+    case pizza
+    case sushi
+    case macdonalds
+}
