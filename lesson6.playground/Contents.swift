@@ -934,8 +934,8 @@ do{
 protocol DaniilProtocol {
     var name: String { get set }
     var age: Int { get set }
-
-
+    
+}
 
 
 
