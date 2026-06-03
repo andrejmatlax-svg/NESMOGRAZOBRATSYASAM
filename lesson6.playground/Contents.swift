@@ -5,12 +5,12 @@ import UIKit
 //struct CitiesStrunct {
 //    var title: String
 //    var distance: Double
-//    
+//
 //    init(title: String, distance: Double) {
 //        self.title = title
 //        self.distance = distance
 //    }
-//    
+//
 //    func getInfo() -> String {
 //        return "\(title) is \(distance) km away"
 //    }
@@ -25,22 +25,22 @@ import UIKit
 //    let wheelsCount: Int
 //    let doorsCount: Int?
 //    let lightCount: Int
-//    
+//
 //    init(title: String, wheelsCount: Int, doorsCount: Int? = nil, lightCount: Int) {
 //        self.name = title
 //        self.wheelsCount = wheelsCount
 //        self.doorsCount = doorsCount
 //        self.lightCount = lightCount
 //    }
-//    
+//
 //    func start() {
 //        print("\(name) been start")
 //    }
-//    
+//
 //    func stop() {
 //        print("\(name) been stop")
 //    }
-//    
+//
 //    func run() {
 //        print("\(name) been run")
 //    }
@@ -66,7 +66,7 @@ import UIKit
 //    var title: String
 //    var addres: String
 //    var emplyersNames: [String]
-//    
+//
 //    var milkCount: Int
 //    var breadCount: Int
 //}
@@ -86,7 +86,7 @@ import UIKit
 //    var title: String
 //    var countOfLegs: Int
 //    var countOfHands: Int
-//    
+//
 //    init(title: String, countOfLegs: Int, countOfHands: Int) {
 //        self.title = title
 //        self.countOfLegs = countOfLegs
@@ -102,7 +102,7 @@ import UIKit
 //
 //class Cat: Animal {
 ////    var isHaveWool: Bool
-//    
+//
 //   /* init(isHaveWool: Bool)*/
 //    init( ){
 ////        self.isHaveWool = isHaveWool
@@ -131,15 +131,15 @@ import UIKit
 //
 //
 //enum CitiesEnum {
-//    
+//
 //    case Minsk
 //    case Moskva
 //    case NewYork
-//    
+//
 //    var title: String {
 //        return "Это название города - \(self.self)"
 //    }
-//    
+//
 //    func calculateDistanceKm() -> Double {
 //        switch self {
 //        case .Minsk:
@@ -162,54 +162,54 @@ import UIKit
 //    var name: String
 //    var  position: String
 //    var age: Int
-//    
-//    
-//    
+//
+//
+//
 //    init (name: String, position: String, age: Int ){
 //        self.name = "Andrey"
 //        self.position = "8Г"
 //        self.age = 12
-//        
-//        
+//
+//
 //        func myInfo1() -> String{
 //            return "Меня зовут\(name)  я ученик \(position) и мне  \( age )"
 //        }
 //    }
 //}
 //
-//    
-    
+//
+
 //struct myInfo {
 //    let name: String
 //    let mySecondName: String
 //    let myAge: Int
-//    
+//
 //    init(name: String, mySecondName: String, myAge: Int) {
 //        self.name = name
 //        self.mySecondName = mySecondName
 //        self.myAge = myAge
 //    }
-//    
-//    
+//
+//
 //    func myFullInfo() -> String{
 //        return "меня зовут \( name) моя фамилия \(mySecondName) и мне \(myAge) лет "
-//        
+//
 //    }
 //}
-//    
+//
 //let myFullName: myInfo = myInfo( name: "Andrey", mySecondName: "Matlax", myAge: 14)
 //let info1 = myFullName.myFullInfo( )
-//    
+//
 //  print(info1)
-    
+
 //class computer {
 //    var  videoCard: String
 //    var  procesor: String
 //    var SSD : String
 //    var kyler: String
-//    
-//    
-//    
+//
+//
+//
 //    init(videoCard: String, procesor: String, SSD: String, kyler: String) {
 //        self.videoCard = videoCard
 //        self.procesor = procesor
@@ -239,14 +239,14 @@ import UIKit
 //(videoCard: " rtx 5090 ti"), (procesor: "intel Core i5"), SSD:("990Pro"),("kyler: "SE-914-XT ARGB V2")
 //
 //
-    
+
 
 //
 //class WatetObject {
 //    var type: String
 //    var name: String
-//    
-//    
+//
+//
 //    init(type: String, name: String) {
 //        self.type = type
 //        self.name = name
@@ -286,14 +286,14 @@ import UIKit
 //class person {
 //    var myName: String
 //    var myComp: String
-//    
-//    
+//
+//
 //    init(myName: String, myComp: String) {
 //        self.myName = myName
 //        self.myComp = myComp
 //    }
-//    
-//    
+//
+//
 //    var sayMyName: String {
 //        get{
 //            "меня зовут \(myName)"
@@ -313,7 +313,7 @@ import UIKit
 //}
 //
 //class Anotherperson: person{
-//    
+//
 //    override var sayMyName: String {
 //        get{
 //            super.myName + "велеколепный "
@@ -365,22 +365,22 @@ import UIKit
 //
 //
 //protocol Person {
-//    
+//
 //    var name: String {get set}
 //    var age: Int { get set}
 //    func displayInfo()
-//    
+//
 //}
-//    
-//    
+//
+//
 //struct CTO : Person {
 //    var name: String
 //    var age: Int
-//    
+//
 //    init(name: String, age: Int) {
 //        self.name = name
 //        self.age = age
-//        
+//
 //    }
 //    func displayInfo() {
 //        print("Я стажор. Меня зовут \(name) . Мне \(age) лет ")
@@ -391,11 +391,11 @@ import UIKit
 //struct Manager: Person {
 //    var name: String
 //    var age: Int
-//    
+//
 //    init(name: String, age: Int) {
 //        self.name = name
 //        self.age = age
-//        
+//
 //    }
 //    func displayInfo() {
 //        print("Я студет и меня зовут \(name), и мне \(age) лет")
@@ -443,16 +443,16 @@ import UIKit
 //
 //enum myComp: String {
 //    case SSD, videoCard, procesor, kyler
-//    
-//    
+//
+//
 //    var infoComp: String {
 //        return
 //        "\nЭто мои комплектуещие для компа - \(self.self)"
 //    }
 //
-//    
+//
 //    func komplekComp() -> String {
-//        
+//
 //        switch self {
 //        case .videoCard:
 //            return "rtx 5090 ti"
@@ -462,7 +462,7 @@ import UIKit
 //           return "intel Core 5i"
 //        case .kyler:
 //            return "SE-914-XT ARGB V2"
-//            
+//
 //        }
 //    }
 //}
@@ -491,7 +491,7 @@ import UIKit
 //    case  dollar = 33.01
 //    case euro = 41.92
 //    case Sterling = 64.90
-//    
+//
 //    var ExchangeRate: String{
 //        "Сегоднешний курс: \( rawValue )"
 //    }
@@ -504,9 +504,9 @@ import UIKit
 //
 //struct CarRent {
 //    var costPerDay: Double
-//    
+//
 //    var costPerWeek: Double  {
-//        
+//
 //        get {
 //            costPerDay * 7.0
 //        }
@@ -514,11 +514,11 @@ import UIKit
 //            costPerDay = newValue / 7.0
 //        }
 //    }
-//    
+//
 //    var costPerMounth: Double {
 //        get {
 //            costPerDay * 30.0
-//            
+//
 //        }
 //        set{
 //            costPerDay = newValue / 30.0
@@ -577,7 +577,7 @@ print( "а вот сейчас так \(cinema)" )
 
 /////////////////////////////
 
- 
+
 class VideoMode {
     var interlaced: Bool
     var name : String
@@ -651,7 +651,7 @@ class Test {
     }
     
     func sum() -> Int {
-         return number + number2
+        return number + number2
     }
 }
 
@@ -666,7 +666,7 @@ class Test1: Test {
     }
     
     deinit {
-       print("удалился экран настроек")
+        print("удалился экран настроек")
     }
     
     override func sum() -> Int {
@@ -793,7 +793,7 @@ var array: [String] = ["Me", "You", "They"]
 
 @MainActor func getValue(index: Int ) -> String? {
     if index < array.count && index >= 0   {
-      return array[index]
+        return array[index]
         
     } else  {
         return nil
@@ -804,7 +804,7 @@ var array: [String] = ["Me", "You", "They"]
 
 
 let value = getValue(index: 0)
- print(value)
+print(value)
 
 
 
@@ -832,10 +832,10 @@ let value = getValue(index: 0)
     guard index < array.count && index >= 0 else {
         return nil
     }
-  return array[ index]
+    return array[ index]
     
 }
-    
+
 
 let value3 = getValue3(index: 3)
 print(value3)
@@ -877,7 +877,7 @@ print(value4)
 
 
 enum MyError : Error {
-   case myError
+    case myError
 }
 
 let array1 : [Int] = [1,2,3,4,5]
@@ -920,7 +920,7 @@ let array33: [Int] = [ 1,2,3,4,5]
 
 func getValue6(index: Int) throws -> Int {
     guard array33.count > index && index >= 0   else {
-      throw MyError2.myError2
+        throw MyError2.myError2
     }
     return array33[index]
 }
@@ -931,27 +931,12 @@ do{
 } catch {
     print(error)
 }
+
+
 protocol DaniilProtocol {
     var name: String { get set }
     var age: Int { get set }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 let array333: [Int] = [ 1,2,3,4,5]
 
@@ -959,7 +944,7 @@ let array333: [Int] = [ 1,2,3,4,5]
 
 func getValue7(index: Int) throws -> Int {
     guard array333.count > index && index >= 0   else {
-      throw MyError2.myError2
+        throw MyError2.myError2
     }
     return array333[index]
 }
@@ -976,18 +961,53 @@ do{
 
 struct Daniil: DaniilProtocol {
     var name: String
-    
     var age: Int
 }
 
 
-let daniil = Daniil(name: "Daniil", age: 24)
+var daniil = Daniil(name: "Daniil", age: 24)
 
 
 
 
 
 
+func name() {
+    print("Andrey")
+}
 
 
 
+
+
+protocol Andrey1 {
+    var name: String { get }
+    var age : Int { get }
+}
+class Andrey: Andrey1 {
+    let name = "Andery"
+    let age = 14
+    
+    
+}
+
+protocol Andrey2 {
+    var family: String { get }
+}
+
+
+class AndreyI: Andrey2 {
+    var family = "Matlah"
+}
+
+
+
+
+
+enum YammyEtats {
+    case chips
+    case cocaCola
+    case pizza
+    case sushi
+    case macdonalds
+}
