@@ -992,3 +992,10 @@ func name() {
 
 
 
+enum YammyEtats {
+    case chips
+    case cocaCola
+    case pizza
+    case sushi
+    case macdonalds
+}
