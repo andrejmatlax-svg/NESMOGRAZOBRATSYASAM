@@ -976,14 +976,15 @@ do{
 
 struct Daniil: DaniilProtocol {
     var name: String
-    
     var age: Int
 }
 
 
 let daniil = Daniil(name: "Daniil", age: 24)
 
-
+func name() {
+    print("Andrey")
+}
 
 
 
