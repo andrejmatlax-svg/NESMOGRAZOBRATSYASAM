@@ -931,6 +931,24 @@ do{
 } catch {
     print(error)
 }
+rotocol DaniilProtocol {
+    var name: String { get set }
+    var age: Int { get set }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -956,8 +974,14 @@ do{
 
 
 
+struct Daniil: DaniilProtocol {
+    var name: String
+    
+    var age: Int
+}
 
 
+let daniil = Daniil(name: "Daniil", age: 24)
 
 
 
