@@ -932,9 +932,22 @@ do{
 }
 
 
+protocol DaniilProtocol {
+    var name: String { get set }
+    var age: Int { get set }
+}
 
 
 
+
+struct Daniil: DaniilProtocol {
+    var name: String
+    
+    var age: Int
+}
+
+
+let daniil = Daniil(name: "Daniil", age: 24)
 
 
 
