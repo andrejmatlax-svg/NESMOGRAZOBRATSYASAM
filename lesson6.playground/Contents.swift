@@ -967,7 +967,9 @@ struct Daniil: DaniilProtocol {
 
 var daniil = Daniil(name: "Daniil", age: 24)
 
-
+func name() {
+    print("Andrey")
+}
 
 
 
