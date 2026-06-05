@@ -974,7 +974,7 @@ func name() {
 
 
 
-func name() {
+func name1() {
     print("Andrey")
 }
 
@@ -986,11 +986,9 @@ protocol Andrey1 {
     var name: String { get }
     var age : Int { get }
 }
-class Andrey: Andrey1 {
+class Andrey: Andrey1  {
     let name = "Andery"
     let age = 14
-    
-    
 }
 
 protocol Andrey2 {
