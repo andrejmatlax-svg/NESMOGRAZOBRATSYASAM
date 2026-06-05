@@ -1011,3 +1011,8 @@ enum YammyEtats {
     case sushi
     case macdonalds
 }
+
+
+func hi(){
+    
+}
