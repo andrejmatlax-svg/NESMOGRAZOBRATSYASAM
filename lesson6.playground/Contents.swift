@@ -1016,3 +1016,7 @@ enum YammyEtats {
 func hi(){
     
 }
+
+
+
+var perestup : Int = 1
