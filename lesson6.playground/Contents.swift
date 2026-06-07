@@ -1021,6 +1021,8 @@ func hi(){
 }
 
 
+
+var perestup : Int = 1
 let arary1 : [Int] = [ 1,2,3,5]
 
 
