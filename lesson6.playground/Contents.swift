@@ -1044,4 +1044,9 @@ do {
     print(value)
 }catch{
     print(error)
+    
+    
+    func hi() {
+        print("hi")
+    }
 }
