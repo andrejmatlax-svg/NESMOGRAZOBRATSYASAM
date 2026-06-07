@@ -1028,20 +1028,17 @@ enum ArrayError : Error {
     case nitIndex
 }
 
-func getValue(index: Int) throws -> Int {
-    if arary1.count > index && index > 0 {
+func getValue1(index: Int) -> Int? {
+    if arary1.count > index && index >= 0 {
         return arary1[index]
         
     } else {
-        throw ArrayError.nitIndex
+       return nil
     }
 }
 
 
 
-do {
-    let value = try getValue(index: 1)
-    print(value)
-}catch{
-    print(error)
-}
+
+    let value22 = try getValue1(index: 1)
+    print(value22)
