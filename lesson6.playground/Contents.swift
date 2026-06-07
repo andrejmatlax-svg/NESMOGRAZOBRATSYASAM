@@ -1004,6 +1004,9 @@ class AndreyI: Andrey2 {
 
 
 
+
+
+
 enum YammyEtats {
     case chips
     case cocaCola
@@ -1015,4 +1018,30 @@ enum YammyEtats {
 
 func hi(){
     
+}
+
+
+let arary1 : [Int] = [ 1,2,3,5]
+
+
+enum ArrayError : Error {
+    case nitIndex
+}
+
+func getValue(index: Int) throws -> Int {
+    if arary1.count > index && index > 0 {
+        return arary1[index]
+        
+    } else {
+        throw ArrayError.nitIndex
+    }
+}
+
+
+
+do {
+    let value = try getValue(index: 1)
+    print(value)
+}catch{
+    print(error)
 }
