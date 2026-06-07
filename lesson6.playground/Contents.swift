@@ -1039,6 +1039,17 @@ func getValue1(index: Int) -> Int? {
 
 
 
+do {
+    let value = try getValue(index: 1)
+    print(value)
+}catch{
+    print(error)
+    
+    
+    func hi() {
+        print("hi")
+    }
+}
 
     let value22 = try getValue1(index: 1)
     print(value22)
